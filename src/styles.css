@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  gap: 3px;
+}
+
+.tlContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px dashed #666;
+  height: 100%;
+}
+
+.task {
+  border: 3px solid #666;
+  background-color: #ddd;
+  border-radius: 0.5em;
+  padding: 10px;
+  cursor: move;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list.over {
+  background-color: aliceblue;
+}
